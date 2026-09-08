@@ -5,6 +5,9 @@
 # demanda_promedio_7dias: [bajo, medio, alto, crítico]        — 4 niveles
 # Total: 200 estados | Acciones: [0, 10, 20, 30, 40, 50] unidades — 6 acciones
 
+import numpy as np
+from collections import defaultdict
+
 def transition(state, action):
     inventory, days_to_expiry, demand_level = state
     demand_map = {'bajo': 5, 'medio': 15, 'alto': 25, 'crítico': 40}
