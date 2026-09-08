@@ -11,6 +11,6 @@ Auditamos la representación del estado y la función de transición de un siste
 ## Archivos
 
 - [parcial_practico.ipynb](parcial_practico.ipynb): reunimos el análisis, el código y sus resultados en un cuaderno Jupyter.
-- [parcial_practico.py](parcial_practico.py): reunimos únicamente el código y docstrings breves; lo ejecutamos con `python parcial_practico.py`.
+- [parcial_practico.py](parcial_practico.py): reunimos únicamente el código y docstrings breves.
 
-Dejamos pendientes el MDP corregido (1.3), la comparación del espacio de estados (1.4) y las preguntas de integración.
+Esta pendiente el MDP corregido (1.3), la comparación del espacio de estados (1.4) y las preguntas de integración.
