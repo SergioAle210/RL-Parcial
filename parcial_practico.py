@@ -95,10 +95,8 @@ razon_costo = (
 print(f'Costo de almacenamiento / objetivo: {razon_costo:.3f}')
 print('Verificamos los ejemplos de los entregables 1.1 y 1.2.')
 
-
-# ---------------------------------------------------------------------------
 # Entregable 1.3: MDP corregido
-# ---------------------------------------------------------------------------
+
 import numpy as np
 
 DIAS_VENCIMIENTO = [1, 7, 14, 30, 60]
@@ -262,9 +260,7 @@ assert proyectado == (40, 14, 'alto')
 assert expandido == (40, 14, 'alto', 0, 'estable')
 
 
-# ---------------------------------------------------------------------------
 # Entregable 1.4: impacto sobre el espacio de estados
-# ---------------------------------------------------------------------------
 niveles_inventario_declarados = 10
 niveles_inventario_reales = len(list(range(0, 101, 10)))
 print('Niveles de inventario que declara el comentario original:', niveles_inventario_declarados)
